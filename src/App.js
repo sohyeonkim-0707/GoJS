@@ -9,7 +9,7 @@ function initDiagram() {
   const diagram = $(go.Diagram, {
     "undoManager.isEnabled": true, // 모델 변경을 감지하기 위해 Undo/Redo 기능을 활성화
     // 'undoManager.maxHistoryLength': 0, // 되돌리기(undo) 및 다시 실행(redo) 기능
-    "clickCreatingTool.archetypeNodeD ata": {
+    "clickCreatingTool.archetypeNodeData": {
       // 빈 공간을 클릭할 때 생성되는 노드의 기본 데이터를 정의
       text: "new node",
       color: "lightblue",
